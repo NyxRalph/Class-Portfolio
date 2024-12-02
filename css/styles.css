@@ -11481,3 +11481,43 @@ filter: invert(100%);
 filter: invert(0);
   
 }
+
+/* SMALL PHONES, TABLETS , LARGE SMART PHONES*/
+@media (max-width: 768px) {
+
+  .header__para {
+    font-size: 20px;
+  }
+  .modal {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    flex-direction: column-reverse;
+    height: auto;
+    border-radius: 0;
+  }
+  .modal__half {
+    width: 100%;
+  }
+}
+/* SMALL PHONES*/
+@media (max-width: 480px) {
+ 
+
+  .project__description--para {
+    display: none;
+  }
+  .project__description {
+    left: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .project__description--sub-title {
+    margin-bottom: 8px;
+  }
+  .modal__half {
+    padding: 40px;
+  }
+}
